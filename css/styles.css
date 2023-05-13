@@ -97,8 +97,12 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-container {
-  display: flex;
+@media only screen and (min-width: 768px) {
+  .header-container {
+     {
+      display: flex;
+    }
+  }
 }
 
 .header .nav {
@@ -118,7 +122,7 @@ img {
 }
 
 .margin-logo {
-  margin-right: 249px;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -945,7 +949,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding-top: 80px;
   padding-bottom: 40px;
   padding-left: 40px;
