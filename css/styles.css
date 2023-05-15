@@ -214,6 +214,12 @@ img {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .contact-list li {
+    height: 14px;
+  }
+}
+
 .contact-link {
   font-size: 12px;
   line-height: 1.17%;
@@ -222,13 +228,6 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 16px 0;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1157px) {
-  .contact-link {
-    padding: 7px 0;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -409,16 +408,22 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px 10px;
+  padding: 24px 16px;
   background-color: var(--modal-bg);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 392px) {
   .modal {
-    min-width: 300px;
+    min-width: 288px;
+  }
+}
+
+@media only screen and (min-width: 392px) and (max-width: 767px) {
+  .modal {
+    min-width: 392px;
   }
 }
 
@@ -449,9 +454,9 @@ img {
   min-width: 360px;
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 392px) {
   .modal-container {
-    min-width: 300px;
+    min-width: 288px;
   }
 }
 .modal-title {
@@ -507,9 +512,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 392px) {
   .modal-container .input {
-    min-width: 300px;
+    min-width: 288px;
   }
 }
 
